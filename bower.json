@@ -1,0 +1,19 @@
+{
+  "name": "code-wars-solutions",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mryan3/code-wars-solutions",
+  "authors": [
+    "Michael Ryan <michaelryan.me@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mocha": "~2.1.0"
+  }
+}
