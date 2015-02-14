@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Mocha Spec Runner</title>
+    <!-- testing frameworks -->
+
+    <link rel="stylesheet" href="bower_components/mocha/mocha.css">
+    <script src="bower_components/mocha/mocha.js"></script>
+    <script src="bower_components/chai/chai.js"></script>
+    <!-- <script src="bower_components/jquery/dist/jquery.js"></script> -->
+   
+   <!-- <script>mocha.setup('bdd');</script> -->
+   <!-- <script>mocha.run();</script> -->
+    <script>
+      mocha.setup('bdd');
+      window.expect = chai.expect;
+      // $(function() {
+      //   mocha.run();
+      // });
+      window.onload = function() {
+        mocha.run();
+      }; 
+    </script>
+
+    <!-- source files -->
+    <script src="recursiveReverseString/js/recursiveReverseString.js"></script>
+    
+
+    <!-- tests -->
+    <script src="recursiveReverseString/js/spec/recursiveReverseStringSpec.js"></script>
+  </head>
+  <body>
+    <div id="mocha"></div>
+  </body>
+</html>
